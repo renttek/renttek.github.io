@@ -1,0 +1,29 @@
+baseURL = 'https://blog.renttek.de/'
+languageCode = 'en-us'
+title = 'Rentteks blog'
+theme = "hugo-theme-codex"
+copyright = "© {year}"
+
+[params]
+  twitter = "https://twitter.com/Renttek92"
+  github = "https://github.com/renttek"
+  iconOrder = ["GitHub", "Twitter"]
+
+[markup]
+  [markup.highlight]
+    codeFences = false
+
+  [markup.goldmark.renderer]
+      unsafe = true
+
+[[menu.main]]
+  identifier = "about"
+  name = "about"
+  title = "About"
+  url = "/"
+
+[[menu.main]]
+  identifier = "blog"
+  name = "blog"
+  title = "Blog"
+  url = "/blog"
