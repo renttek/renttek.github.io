@@ -1,4 +1,4 @@
-baseURL = 'https://renttek.github.io/'
+baseURL = 'https://blog.renttek.de/'
 languageCode = 'en-us'
 title = 'Rentteks blog'
 theme = "hugo-theme-codex"
